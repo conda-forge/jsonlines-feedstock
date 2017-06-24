@@ -33,7 +33,7 @@ test:
 
 about:
   home: https://github.com/wbolster/jsonlines
-  # license_file: No license in repository - see https://github.com/wbolster/jsonlines/issues/27
+  license_file: LICENSE.rst
   license: BSD 3-Clause
   license_family: BSD
   summary: 'Library with helpers for the jsonlines file format'
