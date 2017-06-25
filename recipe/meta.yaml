@@ -1,8 +1,8 @@
 {% set name = "jsonlines" %}
-{% set version = "1.1.0" %}
+{% set version = "1.1.1" %}
 {% set bundle = "tar.gz" %}
 {% set hash_type = "sha256" %}
-{% set hash = "7cd2cce7415861cfe5cdcf6bb484c93bed35e23447e8f338c1bd150f766c0f1b" %}
+{% set hash = "6aa9da4c131c7487b2641d15976a9f945e336d2484ad0ca4884f45d40ccd0f54" %}
 {% set build = 0 %}
 
 package:
@@ -33,7 +33,7 @@ test:
 
 about:
   home: https://github.com/wbolster/jsonlines
-  # license_file: No license in repository - see https://github.com/wbolster/jsonlines/issues/27
+  license_file: LICENSE.rst
   license: BSD 3-Clause
   license_family: BSD
   summary: 'Library with helpers for the jsonlines file format'
