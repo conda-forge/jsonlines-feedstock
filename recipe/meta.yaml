@@ -1,8 +1,8 @@
 {% set name = "jsonlines" %}
-{% set version = "1.1.1" %}
+{% set version = "1.1.2" %}
 {% set bundle = "tar.gz" %}
 {% set hash_type = "sha256" %}
-{% set hash = "6aa9da4c131c7487b2641d15976a9f945e336d2484ad0ca4884f45d40ccd0f54" %}
+{% set hash = "87e0e54871bdb249dc1db4a0736cf51df4254a11d97407b643e300cf9ad5bddd" %}
 {% set build = 0 %}
 
 package:
