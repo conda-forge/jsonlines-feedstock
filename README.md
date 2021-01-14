@@ -5,11 +5,13 @@ Home: https://github.com/wbolster/jsonlines
 
 Package license: BSD-3-Clause
 
-Feedstock license: BSD-3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/jsonlines-feedstock/blob/master/LICENSE.txt)
 
 Summary: Library with helpers for the jsonlines file format
 
+Development: https://github.com/wbolster/jsonlines
 
+Documentation: https://jsonlines.readthedocs.org/
 
 Current build status
 ====================
@@ -116,5 +118,6 @@ In order to produce a uniquely identifiable distribution:
 Feedstock Maintainers
 =====================
 
+* [@BastianZim](https://github.com/BastianZim/)
 * [@pmlandwehr](https://github.com/pmlandwehr/)
 
