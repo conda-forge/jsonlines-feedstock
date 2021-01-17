@@ -1,5 +1,5 @@
 {% set name = "jsonlines" %}
-{% set version = "1.2.0" %}
+{% set version = "2.0.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,11 +7,11 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 43b8d5588a9d4862c8a4a49580e38e20ec595aee7ad6fe469b10fb83fbefde88
+  sha256: 6fdd03104c9a421a1ba587a121aaac743bf02d8f87fa9cdaa3b852249a241fe8
 
 build:
   noarch: python
-  number: 2
+  number: 0
   script: {{ PYTHON }} -m pip install --no-deps --ignore-installed .
 
 requirements:
@@ -35,7 +35,7 @@ about:
   license_file: LICENSE.rst
   license: BSD-3-Clause
   license_family: BSD
-  summary: 'Library with helpers for the jsonlines file format'
+  summary: Library with helpers for the jsonlines file format
   dev_url: https://github.com/wbolster/jsonlines
   doc_url: https://jsonlines.readthedocs.org/
 
