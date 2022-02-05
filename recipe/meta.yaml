@@ -1,5 +1,5 @@
 {% set name = "jsonlines" %}
-{% set version = "2.0.0" %}
+{% set version = "3.0.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 6fdd03104c9a421a1ba587a121aaac743bf02d8f87fa9cdaa3b852249a241fe8
+  sha256: 72c8ca6c056906d6acb058dd5fdd5e072a58b9c6753ce0c9ec6f2b0a1853eba4
 
 build:
   noarch: python
@@ -16,10 +16,10 @@ build:
 
 requirements:
   host:
-    - python
+    - python >=3.6
     - pip
   run:
-    - python
+    - python >=3.6
     - six
 
 test:
@@ -42,3 +42,4 @@ about:
 extra:
   recipe-maintainers:
     - pmlandwehr
+    - asford
