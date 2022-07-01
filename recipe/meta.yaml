@@ -1,5 +1,5 @@
 {% set name = "jsonlines" %}
-{% set version = "3.0.0" %}
+{% set version = "3.1.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 72c8ca6c056906d6acb058dd5fdd5e072a58b9c6753ce0c9ec6f2b0a1853eba4
+  sha256: 2579cb488d96f815b0eb81629e3e6b0332da0962a18fa3532958f7ba14a5c37f
 
 build:
   noarch: python
